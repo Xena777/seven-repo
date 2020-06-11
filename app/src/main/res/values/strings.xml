@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">My NewApplication</string>
+    <string name="corp_name">NARUTO FUN PRODUCTION</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="main_persons">Главные персонажи сериала</string>
+    <string name="secondary_persons">Второстепенные персонажи</string>
+    <string name="male_persons">Мужские персонажи</string>
+    <string name="female_persons">Женские персонажи</string>
+
+    <string name="nav_header_text">Персонажи "Наруто". Категории</string>
+
+    <string name="naruto">Наруто - главный герой</string>
+    <string name="sasuke">Саске - друг и соперник главного героя</string>
+    <string name="sakura">Сакура - подруга главного героя</string>
+    <string name="kakashi">Какаши-сенсей - учитель</string>
+    <string name="djiraia">Джирайя - легендарный ниндзя и второй учитель Наруто</string>
+    <string name="hinata">Хината - скромная девушка-ниндзя, влюбленная в Наруто</string>
+    <string name="itachi">Итачи - старший брат Саске</string>
+    <string name="kabuto">Кабуто - шпион Орочимару</string>
+    <string name="kiba">Киба - участник команды №8</string>
+    <string name="orochimaru">Орочимару - главный злодей</string>
+    <string name="sarutobi">Сарутоби - Третий Хокаге</string>
+    <string name="tcunade">Цунаде - Пятый Хокаге, ученица Третьего</string>
+
+    <string name="narutoUdzumaki">Наруто Удзумаки</string>
+    <string name="sasukeUchiha">Саске Учиха</string>
+    <string name="sakuraHaruno">Сакура Харуно</string>
+    <string name="kakashiHatake">Какаши Хатаке</string>
+    <string name="djiraiaDjiraia">Джирайя</string>
+    <string name="hinataHuga">Хината Хьюга</string>
+    <string name="itachiUchiha">Итачи Учиха</string>
+    <string name="kabutoYakushi">Кабуто Якуши</string>
+    <string name="kibaInuzuka">Киба Инузука</string>
+    <string name="orochimaruOrochimaru">Орочимару</string>
+    <string name="hirudzenSarutobi">Хирудзен Сарутоби</string>
+    <string name="tcunadeTcunade">Цунаде</string>
+
+    <string name="naruto_discription">Главный герой истории, подросток-ниндзя, в теле которого его отец, жертвуя своей жизнью, заточил огромного Девятихвостого Демона-Лиса, напавшего на селение. Огромный запас жизненной силы (чакры) - особая черта клана Удзумаки, унаследованная им от матери - помогает ему сдерживать ярость заточенного зверя и управлять его силой. Однако научиться этому было для него непросто. Наруто был худшим учеником в Академии ниндзя. Он даже несколько раз подряд проваливал выпускные экзамены, и только невероятная целеустремленность и сила воли помогли Наруто преодолеть все трудности на пути к его заветной мечте - стать Хокаге (Главой деревни Скрытого Листа).fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff.</string>
+    <string name="sasuke_discription">Один из главных персонажей, гений родом из сильнейшего, но давно уничтоженного клана Учиха.</string>
+    <string name="sakura_discription">Одна из учениц академии ниндзя и член команды Саске, по уши влюбленная в него.</string>
+    <string name="kakashi_discription">Один из самых сильных ниндзя Конохи, а также учитель и наставник команды №7.</string>
+    <string name="djiraia_discription">Был одним из трех легендарных ниндзя вместе с Цунаде и Орочимару и учеником третьего Хокаге.</string>
+    <string name="hinata_discription">Наследница клана Хьюга, единственная девушка, влюбленная в Наруто Узумаки. </string>
+    <string name="itachi_discription">ений сильнейшего, но вырезанного им же клана, Учиха. </string>
+    <string name="kabuto_discription">Правая рука и шпион Орочимару. </string>
+    <string name="kiba_discription">Член Команды №8, никогда не был замечен без его пожизненного компаньона, пса Акамару.</string>
+    <string name="orochimaru_discription">Один из главных антагонистов сериала, змеиный ниндзя, воплощение образа безнравственного ученого.</string>
+    <string name="sarutobi_discription">Третий Хокаге, предводитель деревни Скрытого Листа, бывший студент первого и второго Хокаге, которые ласково прозвали его "обезьяной". Отец Асумы.</string>
+    <string name="tcunade_discription">Одна из лучших ниндзя-медиков, ученица Третьего Хокаге.</string>
+
+</resources>

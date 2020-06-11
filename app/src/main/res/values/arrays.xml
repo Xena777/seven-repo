@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="image_of_main_persons">
+        <item name="naruto_image">@drawable/naruto</item>
+        <item name="sasuke_image">@drawable/sasuke</item>
+        <item name="sakura_image">@drawable/sakura</item>
+        <item name="kakashi_image">@drawable/kakashi</item>
+        <item name="djiraia_image">@drawable/djiraia</item>
+        <item name="orochimaru_image">@drawable/orochimaru</item>
+        <item name="sarutobi_image">@drawable/sarutobi</item>
+        <item name="tcunade_image">@drawable/tcunade</item>
+    </array>
+
+    <array name="image_of_secondary_persons">
+        <item name="hinata_image">@drawable/hinata</item>
+        <item name="itachi_image">@drawable/itachi</item>
+        <item name="kabuto_image">@drawable/kabuto</item>
+        <item name="kiba_image">@drawable/kiba</item>
+    </array>
+
+    <array name="image_of_male_persons">
+        <item name="naruto_image">@drawable/naruto</item>
+        <item name="sasuke_image">@drawable/sasuke</item>
+        <item name="kakashi_image">@drawable/kakashi</item>
+        <item name="djiraia_image">@drawable/djiraia</item>
+        <item name="orochimaru_image">@drawable/orochimaru</item>
+        <item name="sarutobi_image">@drawable/sarutobi</item>
+        <item name="itachi_image">@drawable/itachi</item>
+        <item name="kabuto_image">@drawable/kabuto</item>
+        <item name="kiba_image">@drawable/kiba</item>
+    </array>
+
+    <array name="image_of_female_persons">
+        <item name="sakura_image">@drawable/sakura</item>
+        <item name="tcunade_image">@drawable/tcunade</item>
+        <item name="hinata_image">@drawable/hinata</item>
+    </array>
+
+    <string-array name="main_persons_items">
+        <item name="naruto">@string/naruto</item>
+        <item name="sasuke">@string/sasuke</item>
+        <item name="sakura">@string/sakura</item>
+        <item name="kakashi">@string/kakashi</item>
+        <item name="djiraia">@string/djiraia</item>
+        <item name="orochimaru">@string/orochimaru</item>
+        <item name="sarutobi">@string/sarutobi</item>
+        <item name="tcunade">@string/tcunade</item>
+    </string-array>
+
+    <string-array name="secondary_persons_items">
+        <item name="hinata">@string/hinata</item>
+        <item name="itachi">@string/itachi</item>
+        <item name="kabuto">@string/kabuto</item>
+        <item name="kiba">@string/kiba</item>
+    </string-array>
+
+    <string-array name="male_persons_items">
+        <item name="naruto">@string/naruto</item>
+        <item name="sasuke">@string/sasuke</item>
+        <item name="kakashi">@string/kakashi</item>
+        <item name="djiraia">@string/djiraia</item>
+        <item name="orochimaru">@string/orochimaru</item>
+        <item name="sarutobi">@string/sarutobi</item>
+        <item name="itachi">@string/itachi</item>
+        <item name="kabuto">@string/kabuto</item>
+        <item name="kiba">@string/kiba</item>
+    </string-array>
+
+    <string-array name="female_persons_items">
+        <item name="sakura">@string/sakura</item>
+        <item name="tcunade">@string/tcunade</item>
+        <item name="hinata">@string/hinata</item>
+    </string-array>
+
+    <string-array name="discriptions_of_main_persons">
+        <item name="naruto_dis">@string/naruto_discription</item>
+        <item name="sasuke_dis">@string/sasuke_discription</item>
+        <item name="sakura_dis">@string/sakura_discription</item>
+        <item name="kakashi_dis">@string/kakashi_discription</item>
+        <item name="djiraia_dis">@string/djiraia_discription</item>
+        <item name="orochimaru_dis">@string/orochimaru_discription</item>
+        <item name="sarutobi_dis">@string/sarutobi_discription</item>
+        <item name="tcunade_dis">@string/tcunade_discription</item>
+    </string-array>
+
+    <string-array name="discriptions_of_secondary_persons">
+        <item name="hinata_dis">@string/hinata_discription</item>
+        <item name="itachi_dis">@string/itachi_discription</item>
+        <item name="kabuto_dis">@string/kabuto_discription</item>
+        <item name="kiba_dis">@string/kiba_discription</item>
+    </string-array>
+
+    <string-array name="discriptions_of_male_persons">
+        <item name="naruto_dis">@string/naruto_discription</item>
+        <item name="sasuke_dis">@string/sasuke_discription</item>
+        <item name="kakashi_dis">@string/kakashi_discription</item>
+        <item name="djiraia_dis">@string/djiraia_discription</item>
+        <item name="orochimaru_dis">@string/orochimaru_discription</item>
+        <item name="sarutobi_dis">@string/sarutobi_discription</item>
+        <item name="itachi_dis">@string/itachi_discription</item>
+        <item name="kabuto_dis">@string/kabuto_discription</item>
+        <item name="kiba_dis">@string/kiba_discription</item>
+    </string-array>
+
+    <array name="discriptions_of_female_persons">
+        <item name="sakura_dis">@string/sakura_discription</item>
+        <item name="tcunade_dis">@string/tcunade_discription</item>
+        <item name="hinata_dis">@string/hinata_discription</item>
+    </array>
+
+    <string-array name="full_names_of_main_persons">
+        <item>@string/narutoUdzumaki</item>
+        <item>@string/sasukeUchiha</item>
+        <item>@string/sakuraHaruno</item>
+        <item>@string/kakashiHatake</item>
+        <item>@string/djiraiaDjiraia</item>
+        <item>@string/orochimaruOrochimaru</item>
+        <item>@string/hirudzenSarutobi</item>
+        <item>@string/tcunadeTcunade</item>
+    </string-array>
+
+    <string-array name="full_names_of_secondary_persons">
+        <item>@string/hinataHuga</item>
+        <item>@string/itachiUchiha</item>
+        <item>@string/kabutoYakushi</item>
+        <item>@string/kibaInuzuka</item>
+    </string-array>
+
+    <string-array name="full_names_of_male_persons">
+        <item>@string/narutoUdzumaki</item>
+        <item>@string/sasukeUchiha</item>
+        <item>@string/kakashiHatake</item>
+        <item>@string/djiraiaDjiraia</item>
+        <item>@string/orochimaruOrochimaru</item>
+        <item>@string/hirudzenSarutobi</item>
+        <item>@string/itachiUchiha</item>
+        <item>@string/kabutoYakushi</item>
+        <item>@string/kibaInuzuka</item>
+    </string-array>
+
+    <string-array name="full_names_of_female_persons">
+        <item>@string/sakuraHaruno</item>
+        <item>@string/tcunadeTcunade</item>
+        <item>@string/hinataHuga</item>
+    </string-array>
+
+</resources>
