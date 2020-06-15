@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/color_settings">
+
+        <ListPreference
+            android:defaultValue="Фиолетовый"
+            android:entries="@array/colors_new"
+            android:entryValues="@array/colors_new"
+            android:key="colors"
+            android:title="Цвет фона" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/fonts_settings">
+        <ListPreference
+            android:defaultValue="Средний"
+            android:entries="@array/text_size_new"
+            android:entryValues="@array/text_size_new"
+            android:key="text_size"
+            android:title="Размер шрифта" />
+    </PreferenceCategory>
+</PreferenceScreen>

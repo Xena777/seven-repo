@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My NewApplication</string>
+    <string name="app_name">Герои сериала НАРУТО</string>
     <string name="corp_name">NARUTO FUN PRODUCTION</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -49,5 +49,37 @@
     <string name="orochimaru_discription">Один из главных антагонистов сериала, змеиный ниндзя, воплощение образа безнравственного ученого.</string>
     <string name="sarutobi_discription">Третий Хокаге, предводитель деревни Скрытого Листа, бывший студент первого и второго Хокаге, которые ласково прозвали его "обезьяной". Отец Асумы.</string>
     <string name="tcunade_discription">Одна из лучших ниндзя-медиков, ученица Третьего Хокаге.</string>
+    <string name="settings">Настройки</string>
+    <string name="color_settings">Настройки цвета</string>
+    <string name="text_size_settings">Настройки текста</string>
 
+    <string-array name="text_size_array">
+        <item>Крупный шрифт</item>
+        <item>Средний шрифт</item>
+        <item>Мелкий шрифт</item>
+    </string-array>
+
+    <string-array name="colors_array">
+        <item>Красный</item>
+        <item>Зеленый</item>
+        <item>Синий</item>
+        <item>Оранжевый</item>
+        <item>Желтый</item>
+        <item>Розовый</item>
+        <item>Фиолетовый</item>
+    </string-array>
+
+    <string name="extra_big_size">Крупный шрифт</string>
+    <string name="big_size">Крупный шрифт</string>
+    <string name="middle_size">Средний шрифт</string>
+    <string name="small_size">Мелкий шрифт</string>
+
+    <string name="red">Красный</string>
+    <string name="green">Зеленый</string>
+    <string name="blue">Синий</string>
+    <string name="orange">Оранжевый</string>
+    <string name="yellow">Желтый</string>
+    <string name="pink">Розовый</string>
+    <string name="purple">Фиолетовый</string>
+    <string name="fonts_settings">Настройки шрифта</string>
 </resources>
