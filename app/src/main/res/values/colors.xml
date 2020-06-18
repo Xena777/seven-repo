@@ -11,4 +11,5 @@
     <color name="yellow">#FFF59D</color>
     <color name="pink">#EF9A9A</color>
     <color name="purple">#B39DDB</color>
+    <color name="purple_dark">#AA00FF</color>
 </resources>

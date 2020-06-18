@@ -29,10 +29,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //myArray.add(new ListItem(R.drawable.naruto,R.string.naruto));
-        //myArray.add(new ListItem(R.drawable.sasuke, R.string.sasuke));
-        //myArray.add(new ListItem(R.drawable.sakura, R.string.sakura));
-        //myArray.add(new ListItem(R.drawable.kakashi, R.string.kakashi));
+
         RecyclerView rcView = findViewById(R.id.rcView);
         NavigationView navigationView = findViewById(R.id.navigationView);
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -52,27 +49,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         rcView.setLayoutManager(layoutManager);
 
-        myArray.addAll(fillArray(changeIntToArray(R.array.image_of_male_persons),
-                changeIntToArray(R.array.male_persons_items)));
+        myArray.addAll(fillArray(changeIntToArray(R.array.image_of_female_persons),
+                changeIntToArray(R.array.female_persons_items)));
         category_index = 3;
-
-        /*personsShow(
-                R.array.full_names_of_female_persons,
-                R.array.discriptions_of_female_persons,
-                R.array.image_of_female_persons,
-                R.array.female_persons_items);
-
-         */
 
         myRecyclerAdapter = new MyRecyclerAdapter(myArray, category_index,this);
         rcView.setAdapter(myRecyclerAdapter);
 
-        /*category_index = 4;
-        myArray.addAll(fillArray(changeIntToArray(R.array.image_of_female_persons),
-                changeIntToArray(R.array.female_persons_items)));
-        myRecyclerAdapter.updateAdapter(myArray, category_index);
-
-         */
     }
 
     @Override
@@ -89,17 +72,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         return super.onOptionsItemSelected(item);
     }
-
-    /*public void fillArray(ArrayList<ListItem> goalArray, ArrayList<int[]> sourceArray){
-        int[] ar1 = sourceArray.get(0);
-        int[] ar2 = sourceArray.get(1);
-
-        for(int i=0; i<ar1.length; i++) {
-            ListItem li = new ListItem(ar1[i], ar2[i]);
-            goalArray.add(li);
-        }
-    }
-*/
 
     public ArrayList<ListItem> fillArray(int[] imageArray, int[] textArray){
         ArrayList<ListItem> goalArray = new ArrayList<>();
@@ -164,27 +136,5 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
-    /*private void personsShow(int full_names_of_persons, int discriptions_of_persons, int image_of_persons, int persons_items) {
-        this.ar1 = changeIntToArray(full_names_of_persons);
-        this.ar2 = changeIntToArray(discriptions_of_persons);
-        this.ar3 = changeIntToArray(image_of_persons);
-        this.ar4 = changeIntToArray(persons_items);
-
-        myArray = fillArray(ar3, ar4);
-    }
-     */
-    /* private ArrayList<int[]> personsShow(int main_persons_items, int discriptions_of_main_persons) {
-        int[] ar1 = changeIntToArray(main_persons_items);
-        int[] ar2 = changeIntToArray(discriptions_of_main_persons);
-
-        ArrayList<int[]> ar = new ArrayList<>();
-        ar.add(ar1);
-        ar.add(ar2);
-
-        fillArray(myArray, ar);
-        return ar;
-    }
-     */
 
 }

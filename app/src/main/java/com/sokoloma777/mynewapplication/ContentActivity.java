@@ -3,7 +3,8 @@ package com.sokoloma777.mynewapplication;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.widget.ScrollView;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -20,7 +21,8 @@ public class ContentActivity extends AppCompatActivity {
     private SharedPreferences save_pref;
     private String text;
     private String color;
-    private ScrollView back_lin;
+    private LinearLayout back_lin;
+    private ImageView app_bar_image;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -30,6 +32,9 @@ public class ContentActivity extends AppCompatActivity {
         tvDiscription = findViewById(R.id.tvDiscription);
         tvHeroName = findViewById(R.id.tvHeroName);
         back_lin = findViewById(R.id.back_lin);
+        app_bar_image = findViewById(R.id.app_bar_image);
+
+        app_bar_image.setImageResource(R.drawable.naruto_header);
 
         catchIntent();
     }
