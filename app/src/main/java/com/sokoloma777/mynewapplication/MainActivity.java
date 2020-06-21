@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         myArray.addAll(fillArray(changeIntToArray(R.array.image_of_female_persons),
                 changeIntToArray(R.array.female_persons_items)));
-        category_index = 3;
+        category_index = 4;
 
         myRecyclerAdapter = new MyRecyclerAdapter(myArray, category_index,this);
         rcView.setAdapter(myRecyclerAdapter);
